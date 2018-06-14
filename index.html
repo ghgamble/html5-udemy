@@ -2,23 +2,36 @@
 <html>
       <head>
             <meta charset="utf-8">
-            <title>Tables</title>
+            <title>Forms</title>
       </head>
       <body>
-            <table border="2">
-                  <tr>
-                        <td>title1</td>
-                        <td>title2</td>
-                        <td>title3</td>
-                  </tr>
-                  <tr>
-                        <th>content1</th>
-                        <th>content2</th>
-                        <th>content3</th>
-                  </tr>
-                  <tr>
-                        <th colspan="3">Description</th>
-                  </tr>
-            </table>
+            <h1>Form Example</h1>
+            <form action="#" method="post" name="first_form">
+                  full name: <input type="text" name="" value="">
+                  <br>
+                  password: <input type="password" name="" value="">
+                  <br>
+                  checkbox: <input type="checkbox" name="" value="" checked>
+                  <br>
+                  radio: <input type="radio" name="radio" value="" checked>
+                  <input type="radio" name="radio" value="" checked>
+                  <input type="radio" name="radio" value="" checked>
+                  <br>
+                  dropdown
+                  <select class="" name="">
+                        <optgroup label="option group1">
+                              <option value="">Option 1</option>                            <option value="">Option 2</option>
+                        </optgroup>
+                        <optgroup label="option group2">
+                              <option value="">Option 3</option>                            <option value="">Option 4</option>
+                        </optgroup>
+                  </select>
+                  <br>
+                  <textarea name="textarea" rows="8" cols="80"></textarea>
+                  <br>
+                  <input type="submit" name="" value="submit">
+                  <input type="reset" name="" value="reset">
+
+            </form>
       </body>
 </html>
