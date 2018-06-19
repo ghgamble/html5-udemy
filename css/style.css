@@ -1,15 +1,10 @@
 p {
-      /*text-align: center;*/
-      /*text-align: left;*/
-      /*text-align: right;*/
       text-align: justify;
-      direction: ltr;
-      /*direction: rtl;*/
-      /*text-decoration: none;*/
-      /*text-decoration: underline;*/
-      /*text-decoration: underline;*/
-      text-decoration-color: red;
-      text-decoration-style: dotted;
       text-indent: 50px;
-      text-shadow: 20px 8px 5px blue;
+      /*line-height: 5;*/
+      /*letter-spacing: 8;*/
+      /*letter-spacing: -2;*/
+      /*text-transform: uppercase;*/
+      /*text-transform: capitalize;*/
+      text-transform: lowercase;
 }
