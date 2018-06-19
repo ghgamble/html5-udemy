@@ -1,7 +1,15 @@
-html,body {
-      background-color: gray;
-      background-image: url('../img/background.jpg');
-      background-repeat: no-repeat;
-      background-position: center center;
-      height: 100%;
+p {
+      /*text-align: center;*/
+      /*text-align: left;*/
+      /*text-align: right;*/
+      text-align: justify;
+      direction: ltr;
+      /*direction: rtl;*/
+      /*text-decoration: none;*/
+      /*text-decoration: underline;*/
+      /*text-decoration: underline;*/
+      text-decoration-color: red;
+      text-decoration-style: dotted;
+      text-indent: 50px;
+      text-shadow: 20px 8px 5px blue;
 }
