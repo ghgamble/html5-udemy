@@ -1,10 +1,16 @@
 p {
-      text-align: justify;
-      text-indent: 50px;
-      /*line-height: 5;*/
-      /*letter-spacing: 8;*/
-      /*letter-spacing: -2;*/
-      /*text-transform: uppercase;*/
-      /*text-transform: capitalize;*/
-      text-transform: lowercase;
+      /* Single word font */
+      /* font-family: tahoma; */
+      /* Multiple word font, needs quotes */
+      font-family: "Times New Roman";
+      /* If browser doesn't have one of these, use the next */
+      font-family: arial, tahoma, "Times New Roman";
+      /*font-size: 20px;*/
+      /*font-size: xx-small;*/
+      font-size: large;
+      /*font-style: normal;*/
+      font-style: italic;
+      /*font-weight: bold;*/
+      /*font-weight: 700;*/
+      font-weight: 400;
 }
