@@ -1,17 +1,12 @@
-#title {
-      color: blue;
-      font-size: 40px;
-      text-align: center;
-}
-.paragraph {
+/* Name */
+.color1 {
       color: red;
 }
-#style1 {
-      font-size: 20px;
+/* Hexidecimal */
+.color2 {
+      color: #ff0000;
 }
-#style2 {
-      text-align: center;
-}
-#style3 {
-      font-weight: bold;
+/* RGBA */
+.color3 {
+      color: rgba(255,0,0, 0.5);
 }
