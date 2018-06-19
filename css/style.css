@@ -1,11 +1,17 @@
-/* Start Body */
-body {
-      background: #e6e6e6;
+#title {
+      color: blue;
+      font-size: 40px;
+      text-align: center;
 }
-/* End Body */
-/* Start Header */
-header {
-      background: #4d4d4d;
-      height: 400px;
+.paragraph {
+      color: red;
 }
-/* End Header */
+#style1 {
+      font-size: 20px;
+}
+#style2 {
+      text-align: center;
+}
+#style3 {
+      font-weight: bold;
+}
