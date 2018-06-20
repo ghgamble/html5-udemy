@@ -7,4 +7,6 @@
       /*border-color: brown yellow orange blue;*/
       /*border-style: solid dashed double dotted;*/
       border: 20px solid brown;
+      /*margin: 50px 100px 20px 0px;*/
+      margin: -50px 100px 20px 0px;
 }
