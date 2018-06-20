@@ -1,9 +1,17 @@
-a {
-      color: red;
+.box {
+      background-color: red;
+      text-align: center;
+      font-size: 50px;
+      padding: 40px;
 }
-a:hover {
-      color: gray;
-}
-a:visited {
-      color: green;
+.box2 {
+      background-color: blue;
+      text-align: center;
+      font-size: 50px;
+      /*padding-top: 100px;*/
+      /*padding-right: 50px;*/
+      /*padding-bottom: 100px;*/
+      /*padding-left: 50px;*/
+      /*padding: 100px 50px 100px 50px;*/
+      padding: 100px 50px;
 }
