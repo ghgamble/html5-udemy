@@ -1,7 +1,40 @@
-* {
-      /*display: block;*/
-      /*display: inline;*/
-      /*height: 150px;*/
-      display: inline-block;
-      height: 150px;
+body {
+      height: 2000px;
+}
+.box {
+      background-color: gray;
+      color: white;
+      font-size: 30px;
+      padding: 20px;
+      width: 100px;
+      /*position: static;*/
+      /*top: 100px;*/
+      /*position: relative;*/
+      top: 100px;
+}
+.box1 {
+      background-color: black;
+      height: 500px;
+      width: 500px;
+      position: relative;
+      bottom: 100px;
+      left: 200px;
+}
+.parent {
+      background-color: black;
+      height: 500px;
+      width: 500px;
+      position: relative;
+}
+.child {
+      background-color: gray;
+      color: white;
+      font-size: 30px;
+      padding: 20px;
+      width: 100px;
+      top: 100px;
+      /*position: absolute;*/
+      position: fixed;
+      right: 50px;
+      bottom: 200px;
 }
