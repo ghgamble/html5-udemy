@@ -1,59 +1,29 @@
-/*
-order: <integer>;  default is 0
-flex-grow: <number>; default 0
-flex-shrink: <number>; default 1
-flex-basis: <length> | auto; default auto
-flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]
-*/
-
-
-body {
-      background: #ededed;
-      padding: 20px;
+.box {
+      background-color: #696969;
+      width: 100px;
+      height: 100px;
+      margin: 150px;
+      border: 2px solid #000;
 }
 
-.container {
-      background: #fff;
-      padding: 20px;
-      font-size: 30px;
-      margin: auto;
-      display: flex;
+.translate:hover {
+      /* On hover, box moves 80px on x axis and 30px on y axis */
+      /*Translate lets you move elements left, right, up and down from it's starting/current position*/
+      transform: translate(80px, 30px);
 }
-
-.items {
-      flex-basis: 200px;
-      height: 200px;
+.rotate:hover {
+      /*The rotate method rotates an element clockwise or counter-clockwise according to a given degree*/
+      /*transform: rotate(120deg);*/
+      transform: rotate(-80deg);
 }
-
-.item1 {
-      background-color: #0ff;
-      order: 3;
-      flex-shrink: 2;
+.scale:hover {
+      /*The scale method decreases or increases the size of an element according to the parameters given for the width and the height*/
+      /*transform: scale(4,2);*/
+      transform: scale(0.5,0.5);
 }
-
-.item2 {
-      background-color: #f0f;
-      order: 4;
-      flex-shrink: 1;
-}
-
-.item3 {
-      background-color: #a11;
-      order: 1;
-      flex-shrink: 3;
-}
-
-.item4 {
-      background-color: #11a;
-      order: 2;
-}
-
-.item5 {
-      background-color: #1a1;
-      order: 5;
-}
-
-.item6 {
-      background-color: #aaa;
-      order: 6;
+.skew:hover {
+      /*The skew method skews an element along the X and Y-Axis by the given angles*/
+      /*transform: skew(30deg, 40deg);*/
+      /*transform: skew(-30deg, 20deg);*/
+      transform: skew(30deg);
 }
